@@ -45,9 +45,14 @@ python src/main.py --pattern bullish_reversal --algorithm kmp
 
 With real CSV:
 
-```bash
+​```bash
 python src/main.py --csv data/BBCA.csv --pattern bullish_reversal --algorithm bm
-```
+​```
+
+> **Note:** `data/BBCA.csv` above is only an example filename. This repository does
+> **not** include real market data, only the synthetic OHLC generator. To use real
+> data, supply your own CSV file with the
+> column format shown below, and point `--csv` to its path.
 
 Your CSV should contain at least these columns:
 
