@@ -1,0 +1,94 @@
+algorithm,text_length,pattern,pattern_length,match_count,first_match_index,comparisons,elapsed_ns,elapsed_ms,timing_repeats,pattern_name,pattern_scenario
+Brute Force,100,gr,2,16,2,136,7770,0.00777,10,,
+KMP,100,gr,2,16,2,121,7490,0.00749,10,,
+Boyer-Moore,100,gr,2,16,2,82,10050,0.01005,10,,
+Brute Force,100,grg,3,8,2,150,8110,0.00811,10,,
+KMP,100,grg,3,8,2,129,7530,0.00753,10,,
+Boyer-Moore,100,grg,3,8,2,76,8820,0.00882,10,,
+Brute Force,100,ggrgr,5,2,31,151,7750,0.00775,10,,
+KMP,100,ggrgr,5,2,31,128,7210,0.00721,10,,
+Boyer-Moore,100,ggrgr,5,2,31,70,8290,0.00829,10,,
+Brute Force,100,grggrgrg,8,1,29,155,7800,0.0078,10,,
+KMP,100,grggrgrg,8,1,29,132,7610,0.00761,10,,
+Boyer-Moore,100,grggrgrg,8,1,29,43,5760,0.00576,10,,
+Brute Force,500,gg,2,58,28,668,38980,0.03898,10,,
+KMP,500,gg,2,58,28,611,34450,0.03445,10,,
+Boyer-Moore,500,gg,2,58,28,401,46970,0.04697,10,,
+Brute Force,500,ggU,3,6,97,725,40100,0.0401,10,,
+KMP,500,ggU,3,6,97,657,36640,0.03664,10,,
+Boyer-Moore,500,ggU,3,6,97,253,33110,0.03311,10,,
+Brute Force,500,rggUr,5,1,164,731,40510,0.04051,10,,
+KMP,500,rggUr,5,1,164,663,38390,0.03839,10,,
+Boyer-Moore,500,rggUr,5,1,164,233,28640,0.02864,10,,
+Brute Force,500,ggrggUrr,8,1,162,754,40820,0.04082,10,,
+KMP,500,ggrggUrr,8,1,162,643,35120,0.03512,10,,
+Boyer-Moore,500,ggrggUrr,8,1,162,177,21320,0.02132,10,,
+Brute Force,1000,UL,2,11,21,1127,63090,0.06309,10,,
+KMP,1000,UL,2,11,21,1117,59670,0.05967,10,,
+Boyer-Moore,1000,UL,2,11,21,598,76120,0.07612,10,,
+Brute Force,1000,ULr,3,7,152,1137,62530,0.06253,10,,
+KMP,1000,ULr,3,7,152,1121,58880,0.05888,10,,
+Boyer-Moore,1000,ULr,3,7,152,524,65400,0.0654,10,,
+Brute Force,1000,rULrr,5,2,331,1355,78460,0.07846,10,,
+KMP,1000,rULrr,5,2,331,1311,72120,0.07212,10,,
+Boyer-Moore,1000,rULrr,5,2,331,360,45300,0.0453,10,,
+Brute Force,1000,LUrULrrD,8,1,329,1138,65810,0.06581,10,,
+KMP,1000,LUrULrrD,8,1,329,1109,58300,0.0583,10,,
+Boyer-Moore,1000,LUrULrrD,8,1,329,238,34400,0.0344,10,,
+Brute Force,5000,Rg,2,49,339,5157,305000,0.305,10,,
+KMP,5000,Rg,2,49,339,5109,294460,0.29446,10,,
+Boyer-Moore,5000,Rg,2,49,339,3384,561160,0.56116,10,,
+Brute Force,5000,Rgr,3,14,353,5205,323500,0.3235,10,,
+KMP,5000,Rgr,3,14,353,5144,288710,0.28871,10,,
+Boyer-Moore,5000,Rgr,3,14,353,3197,462360,0.46236,10,,
+Brute Force,5000,URgrr,5,2,1664,5670,321110,0.32111,10,,
+KMP,5000,URgrr,5,2,1664,5647,290520,0.29052,10,,
+Boyer-Moore,5000,URgrr,5,2,1664,2273,261100,0.2611,10,,
+Brute Force,5000,ggURgrrr,8,1,1662,7265,420060,0.42006,10,,
+KMP,5000,ggURgrrr,8,1,1662,6581,377820,0.37782,10,,
+Boyer-Moore,5000,ggURgrrr,8,1,1662,1585,194260,0.19426,10,,
+Brute Force,5000,RG,2,2,1222,5157,299580,0.29958,10,bullish_reversal,predefined
+KMP,5000,RG,2,2,1222,5156,264490,0.26449,10,bullish_reversal,predefined
+Boyer-Moore,5000,RG,2,2,1222,2633,360960,0.36096,10,bullish_reversal,predefined
+Brute Force,5000,GR,2,6,854,5181,289760,0.28976,10,bearish_reversal,predefined
+KMP,5000,GR,2,6,854,5176,270310,0.27031,10,bearish_reversal,predefined
+Boyer-Moore,5000,GR,2,6,854,2619,364550,0.36455,10,bearish_reversal,predefined
+Brute Force,5000,DgG,3,4,653,5305,301820,0.30182,10,doji_continuation,predefined
+KMP,5000,DgG,3,4,653,5220,275750,0.27575,10,doji_continuation,predefined
+Boyer-Moore,5000,DgG,3,4,653,2307,367560,0.36756,10,doji_continuation,predefined
+Brute Force,5000,UgR,3,11,780,5866,337230,0.33723,10,upper_rejection,predefined
+KMP,5000,UgR,3,11,780,5637,310390,0.31039,10,upper_rejection,predefined
+Boyer-Moore,5000,UgR,3,11,780,2372,340560,0.34056,10,upper_rejection,predefined
+Brute Force,5000,LrG,3,0,-1,5778,342460,0.34246,10,lower_rejection,predefined
+KMP,5000,LrG,3,0,-1,5588,301170,0.30117,10,lower_rejection,predefined
+Boyer-Moore,5000,LrG,3,0,-1,2344,341640,0.34164,10,lower_rejection,predefined
+Brute Force,5000,GrRg,4,0,-1,5228,305800,0.3058,10,mixed_volatility,predefined
+KMP,5000,GrRg,4,0,-1,5182,273060,0.27306,10,mixed_volatility,predefined
+Boyer-Moore,5000,GrRg,4,0,-1,2085,263840,0.26384,10,mixed_volatility,predefined
+Brute Force,5000,RDG,3,0,-1,5166,303630,0.30363,10,morning_star,predefined
+KMP,5000,RDG,3,0,-1,5158,265090,0.26509,10,morning_star,predefined
+Boyer-Moore,5000,RDG,3,0,-1,1787,257040,0.25704,10,morning_star,predefined
+Brute Force,5000,GDR,3,1,1528,5193,308350,0.30835,10,evening_star,predefined
+KMP,5000,GDR,3,1,1528,5181,271240,0.27124,10,evening_star,predefined
+Boyer-Moore,5000,GDR,3,1,1528,1795,258410,0.25841,10,evening_star,predefined
+Brute Force,5000,GGG,3,0,-1,5190,298470,0.29847,10,three_white_soldiers,predefined
+KMP,5000,GGG,3,0,-1,5182,271190,0.27119,10,three_white_soldiers,predefined
+Boyer-Moore,5000,GGG,3,0,-1,1756,250070,0.25007,10,three_white_soldiers,predefined
+Brute Force,5000,RRR,3,0,-1,5157,303970,0.30397,10,three_black_crows,predefined
+KMP,5000,RRR,3,0,-1,5158,271270,0.27127,10,three_black_crows,predefined
+Boyer-Moore,5000,RRR,3,0,-1,1738,234380,0.23438,10,three_black_crows,predefined
+Brute Force,5000,LG,2,23,16,5587,320710,0.32071,10,hammer,predefined
+KMP,5000,LG,2,23,16,5565,293110,0.29311,10,hammer,predefined
+Boyer-Moore,5000,LG,2,23,16,2764,384390,0.38439,10,hammer,predefined
+Brute Force,5000,UR,2,17,442,5648,329970,0.32997,10,shooting_star,predefined
+KMP,5000,UR,2,17,442,5632,305500,0.3055,10,shooting_star,predefined
+Boyer-Moore,5000,UR,2,17,442,2755,382160,0.38216,10,shooting_star,predefined
+Brute Force,5000,GRGRGRGR,8,0,-1,5180,314420,0.31442,10,absent:GRGRGRGR,absent
+KMP,5000,GRGRGRGR,8,0,-1,5182,349550,0.34955,10,absent:GRGRGRGR,absent
+Boyer-Moore,5000,GRGRGRGR,8,0,-1,668,97690,0.09769,10,absent:GRGRGRGR,absent
+Brute Force,5000,RRRRRRRRR,9,0,-1,5150,309080,0.30908,10,absent:RRRRRRRRR,absent
+KMP,5000,RRRRRRRRR,9,0,-1,5158,266810,0.26681,10,absent:RRRRRRRRR,absent
+Boyer-Moore,5000,RRRRRRRRR,9,0,-1,575,79490,0.07949,10,absent:RRRRRRRRR,absent
+Brute Force,5000,GGGGGGGGG,9,0,-1,5183,295780,0.29578,10,absent:GGGGGGGGG,absent
+KMP,5000,GGGGGGGGG,9,0,-1,5182,292530,0.29253,10,absent:GGGGGGGGG,absent
+Boyer-Moore,5000,GGGGGGGGG,9,0,-1,571,90170,0.09017,10,absent:GGGGGGGGG,absent
